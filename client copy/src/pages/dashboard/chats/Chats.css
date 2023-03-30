@@ -1,0 +1,45 @@
+.Chats {
+  text-align: center;
+}
+
+.Chats-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Chats-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Chats-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Chats-link {
+  color: #61dafb;
+}
+
+.circular-progress {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
